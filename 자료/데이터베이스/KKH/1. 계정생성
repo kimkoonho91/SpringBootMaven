@@ -1,6 +1,0 @@
-1. Sys as SysDBA 접속
-
-2. 실행
-    create user kkh identified by 1234;
-
-    grant resource, connect, dba to kkh;
