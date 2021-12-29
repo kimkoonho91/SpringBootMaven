@@ -14,8 +14,6 @@ public class MainController {
     @RequestMapping(value = "/", method = {RequestMethod.GET, RequestMethod.POST})
     public String main(HttpServletRequest httpServletRequest, Model model) {
         
-        System.out.println("메인화면 접속");
-        
-        return "thymeleaf/main";
+        return "main";
     }
 }
